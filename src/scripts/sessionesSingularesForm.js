@@ -1,14 +1,14 @@
 const GOOGLE_FORM_ACTION = "https://docs.google.com/forms/d/e/1FAIpQLSdMYTVmcyAs3si0XKIe6m_3q23x5TGRAShaVG-TeNWNmhZbYQ/formResponse";
 
 const fields = {
-    name: "entry.2061745721",
-    punctuality: "entry.1054994475",
-    attendance: "entry.2095902647",
-    experiences: "entry.2092361543", 
-    email: "entry.2006946810",
-    genres: "entry.1440434680",
-    instagram: "entry.1790059981",
-    whatsapp: "entry.558799515"
+    name: "entry.1784247829",
+    punctuality: "entry.1779102809",
+    attendance: "entry.922373883",
+    experiences: "entry.288653364", 
+    email: "entry.757878290",
+    genres: "entry.571651837",
+    instagram: "entry.101075939",
+    whatsapp: "entry.148486196"
 };
 
 const PUNCTUALITY_CONFIG = ["Sí, claro", "Trataré", "No, es seguro"];
