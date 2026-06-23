@@ -600,7 +600,7 @@ body{
    NOTICE
 ========================== */
 
-.notice-card{
+/* .notice-card{
 
     position:relative;
 
@@ -618,6 +618,43 @@ body{
     border:1px solid rgba(251,146,60,.14);
 
     overflow:hidden;
+} */
+
+.notice-card {
+    position: relative;
+    padding: 26px;
+    border-radius: 24px;
+    overflow: hidden;
+    margin: 50px 0; /* Agregué el margen que tenías en el primer mensaje */
+
+    /* Tu fondo original idéntico (blanco sutil translúcido) */
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.05),
+        rgba(255, 255, 255, 0.03)
+    );
+
+    /* CAMBIO: Mismo grosor y opacidad (.14), pero con los números del MORADO */
+    border: 1px solid rgba(179, 18, 228, 0.14);
+
+    /* Filtro de fondo para que el texturizado de cristal funcione */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    /* Una sombra muy sutil para que no flote en la nada */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    
+    transition: all 0.3s ease-in-out;
+}
+
+/* El toque interactivo manteniendo tu estética limpia */
+.notice-card:hover {
+    /* El borde morado se enciende un poco más al pasar el mouse */
+    border-color: rgba(179, 18, 228, 0.4);
+    /* Crea un reflejo morado muy fino abajo */
+    box-shadow: 
+        0 12px 40px 0 rgba(0, 0, 0, 0.3),
+        0 0 20px 0 rgba(179, 18, 228, 0.1);
 }
 
 .notice-card::before{

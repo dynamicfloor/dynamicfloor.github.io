@@ -452,7 +452,7 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
    NOTICE CARD
 ========================== */
 
-.notice-card{
+/* .notice-card{
     position:relative;
     padding:26px;
     border-radius:24px;
@@ -462,10 +462,50 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
             rgba(255,255,255,.05),
             rgba(255,255,255,.03)
         );
-    border:1px solid rgba(251,146,60,.14);
+    border:1px solid rgba(179, 18, 228, 0.14);
     overflow:hidden;
     margin:50px 0;
+} */
+.notice-card {
+    position: relative;
+    padding: 26px;
+    border-radius: 24px;
+    margin: 50px 0;
+    overflow: hidden;
+
+    /* Gradiente original ligeramente optimizado para mejor contraste */
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.06),
+        rgba(255, 255, 255, 0.02)
+    );
+    
+    /* Efecto de cristal (blur de fondo) */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    /* Borde morado inicial sutil */
+    border: 1px solid rgba(179, 18, 228, 0.2);
+
+    /* Sombras: una oscura para dar profundidad y un sutil resplandor morado */
+    box-shadow: 
+        0 8px 32px 0 rgba(0, 0, 0, 0.3),
+        0 0 15px 0 rgba(179, 18, 228, 0.05);
+
+    /* Transición suave para cuando el usuario pase el cursor */
+    transition: all 0.3s ease-in-out;
 }
+
+/* Efecto interactivo al pasar el mouse */
+.notice-card:hover {
+    border-color: rgba(179, 18, 228, 0.4);
+    box-shadow: 
+        0 12px 40px 0 rgba(0, 0, 0, 0.4),
+        0 0 25px 5px rgba(179, 18, 228, 0.15);
+    transform: translateY(-2px);
+}
+
+
 
 .notice-card::before{
     content:"";
