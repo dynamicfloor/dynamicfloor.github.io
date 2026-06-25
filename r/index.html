@@ -4,13 +4,14 @@
     <meta charset="utf-8" />
     <script>
       const routes = {
-        "singular-reg": "/experiences/singular/register/",
+        "s-reg": "/experiences/singular/register/",
       };
 
-      const path = window.location.pathname.split("/").pop();
+      // toma el "singular-reg" directamente
+      const query = window.location.search.replace("?", "");
 
-      if (routes[path]) {
-        window.location.replace(routes[path]);
+      if (routes[query]) {
+        window.location.replace(routes[query]);
       } else {
         document.body.innerHTML = "Not found";
       }
