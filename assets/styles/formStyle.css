@@ -505,7 +505,13 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
     transform: translateY(-2px);
 }
 
-
+.opcional {
+  color: #6b7280;         /* Gris neutro suave */
+  font-size: 0.85em;      /* Ligera reducción de tamaño */
+  font-weight: 400;       /* Peso de fuente normal */
+  font-style: italic;     /* Estilo cursiva */
+  margin-left: 0.25rem;   /* Espaciado ligero desde la etiqueta */
+}
 
 .notice-card::before{
     content:"";
