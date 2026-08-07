@@ -20,12 +20,12 @@ const fields = {
 const FORM_STRUCTURE_CONFIG = {
     name: true,
     date: null,
-    genres: false,
+    genres: null,
     email: true,
     instagram: false,
     whatsapp: false,
     arrival: true,
-    budget: false
+    budget: null
 };
 
 /* ==========================================================================
