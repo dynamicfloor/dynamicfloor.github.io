@@ -9,7 +9,7 @@
 
         // Sección Principal (Hero)
         hero: {
-            badge: "Participacion",
+            badge: "Colaboración",
             title: "Selección y participación",
             description: "La forma en que buscamos y seleccionamos a DJs y selectores(as) para formar parte de nuestras experiencias."
         },
