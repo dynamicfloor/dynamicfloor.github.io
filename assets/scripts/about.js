@@ -9,9 +9,9 @@
 
         // Sección Principal (Hero)
         hero: {
-            badge: "● Badge / Etiqueta",
-            title: "Título Principal",
-            description: "Descripción breve del evento, marca o sitio web."
+            badge: "Participacion",
+            title: "Selección y participación",
+            description: "La forma en que buscamos y seleccionamos a DJs y selectores(as) para formar parte de nuestras experiencias."
         },
 
         // Lista de Secciones dinámicas
@@ -20,10 +20,97 @@
             // --- EJEMPLO DE SECCIÓN DE TEXTO ---
             {
                 tipo: "texto",
-                tituloSeccion: "Sección de bienvenida",
-                texto: "Este es un texto de prueba. Puedes modificar esta sección o eliminarla y agregar cualquier otro tipo de contenido compatible."
-            }
+                tituloSeccion: "Valor Intrinseco",
+                texto: "Para Dynamic Floor, el criterio de selección de DJs y selectores(as) parte de la música.\
+                La calidad, la profundidad y el valor de una propuesta musical tienen mayor peso que la técnica de DJing."
+            },
+            {
+                tipo: "texto",
+                tituloSeccion: "Calidad",
+                texto: "Buscamos música de alta calidad, proveniente de sellos y propuestas poco comunes,\
+                con un criterio de selección afinado y una clara distancia de las tendencias de consumo."
+            },
+            {
+                tipo: "texto",
+                tituloSeccion: "Otro Enfoque",
+                texto: "Dynamic Floor busca alejarse de las fórmulas y conceptos convencionales de la escena,\
+                replanteando formas como el lineup, el warm-up, el headliner o el press kit para dar lugar a\
+                propuestas construidas desde la música y el contexto de cada experiencia."
+            },
+            {
+                tipo: "texto",
+                tituloSeccion: "Identidad y Criterio",
+                texto: "No buscamos propuestas construidas desde el open format, las tendencias de consumo o\
+                fórmulas pensadas para complacer al público más amplio mediante propuestas consolidadas y repetitivas.\
+                Valoramos la identidad de cada DJ y selector(a), así como un criterio de selección definido y afinado. No estamos cerrados\
+                a ninguna trayectoria o forma de trabajo; sin embargo, formar parte de Dynamic Floor implica comprender y respetar \
+                nuestro concepto, adaptándose a él sin perder la identidad propia."
+            },
 
+            {
+                tipo: "texto",
+                tituloSeccion: "El desarrollo de una propuesta",
+                texto: 
+                "Nuestro desarrollo se construye a partir de tres componentes: Arranque, Propuestas Invitadas y Propuestas Estelares.\
+                Cada uno responde a un momento distinto dentro de la construcción de una experiencia y de nuestra relación con quienes\
+                participan en ella."
+            },
+            {
+                tipo: "texto",
+                tituloSeccion: "Arranque",
+                texto: 
+                "Es el punto de partida de la experiencia. Al no utilizar conceptos como warm up,\
+                proponemos una selección dirigida por Dynamic Floor, que posteriormente es mezclada y desarrollada\
+                por los participantes junto con el equipo de soporte de Dynamic Floor. El objetivo no es establecer jerarquías,\
+                sino construir desde el primer momento una continuidad musical compartida y coherente con la experiencia."
+            },
+            {
+                tipo: "texto",
+                tituloSeccion: "Propuestas Invitadas",
+                texto: 
+                "Representan el primer acercamiento de una propuesta a Dynamic Floor. Más que una participación aislada,\
+                buscamos que cada encuentro permita conocer, desarrollar y contrastar una visión musical.\
+                Es un espacio para trabajar sin ego ni prejuicios, con apertura suficiente para encontrar aquello que puede construirse en conjunto.\
+                La intención es que cada propuesta invitada pueda evolucionar hacia nuevas posibilidades dentro del proyecto,\
+                a partir de la relación que se construya durante el proceso."
+            },
+            {
+                tipo: "texto",
+                tituloSeccion: "Propuestas Estelares",
+                texto: 
+                "Son propuestas que parten de un acuerdo previo y representan una etapa de mayor consolidación dentro del desarrollo.\
+                No significan un punto final, sino la posibilidad de profundizar en una relación ya construida y generar nuevas propuestas\
+                en el futuro.\ De esta manera, cada participación forma parte de un proceso continuo: comenzar, conocer, desarrollar y consolidar. \
+                Nuestro interés no está únicamente en presentar propuestas musicales, sino en construir relaciones y experiencias que permitan que el proyecto continúe desarrollándose con cada encuentro."
+            },
+             {
+                tipo: "texto",
+                tituloSeccion: "Evaluación",
+                texto: "Dynamic Floor evalúa el criterio musical de cada selector(a) o DJ a partir de una selección de tracks\
+                que represente su propuesta,\nacompañada de los sellos discográficos de referencia.\n\nNo buscamos únicamente géneros,\
+                tendencias o reconocimiento,\nsino conocer qué referencias elige y qué criterio existe detrás de su\
+                selección.<br>Ejemplo:<br>Sello: Ajudadeep · Colorize · All Day I Dream<br>Tracks: [Lista de tracks seleccionados]"
+               
+            },
+            {
+                tipo: "texto",
+                tituloSeccion: "Consideraciones sobre la colaboración",
+                texto: "Dynamic Floor no cuenta con financiamiento ni ingresos fijos. Por ello, cada participación forma parte de una\
+                colaboración orientada al desarrollo de cada experiencia y al crecimiento del proyecto.<br><br>Los accesos que se generan\
+                en cada experiencia se destinan al desarrollo, producción y mantenimiento de Dynamic Floor, así como a la continuidad de las\
+                 actividades que construimos junto con nuestra comunidad.<br><br>De igual manera, procuramos que los espacios donde se desarrollan\
+                las experiencias puedan ofrecer a los artistas algún incentivo en especie y, cuando las condiciones lo permiten,\
+                un pequeño incentivo económico de carácter simbólico. Estos incentivos no están garantizados en todas las experiencias,\
+                pero forman parte de nuestro objetivo de reconocer y acompañar la participación de quienes colaboran con el proyecto.\
+                <br><br>Es importante considerar que Dynamic Floor es un proyecto sin fines de lucro. Los accesos no representan una finalidad\
+                comercial, sino una contribución destinada a hacer posible el desarrollo y mantenimiento del proyecto,\
+                sus experiencias y la comunidad que se construye alrededor de ellas."
+            },
+            {
+                tipo: "texto",
+                tituloSeccion: "Más Allá de la Música",
+                texto: "Dynamic Floor convoca a artistas de todas las disciplinas para fusionar la música, el arte y el patrimonio."
+            }
             /* 
                --- PLANTILLAS DE SECCIONES PARA COPIAR Y PEGAR EN FUTUROS EVENTOS ---
 
